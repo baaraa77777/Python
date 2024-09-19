@@ -7,7 +7,7 @@ print(student_scores)
 
 max = 0
 for score in student_scores:
-    if score < max:
+    if score > max:
         max= score
     #else:
      #   max= max
