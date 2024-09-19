@@ -20,7 +20,7 @@ password_list = [ ]
 
 for char in range(1, num_letters + 1):
     
-    password_list.append(random.choice(letters))
+    password_list+=random.choice(letters)
 
 for char in range(1, num_symbols + 1):
     password_list += random.choice(symbols)
