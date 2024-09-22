@@ -1,3 +1,5 @@
+#If 5sq.m requires 1 can of paint. How many cans is required to paint the wall?
+
 import math
 
 def paint_calc(height, width, coverage):
