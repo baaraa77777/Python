@@ -21,15 +21,15 @@ operations = {
 }
 def calculator():
     print (calc_logo)
-    
-    num1 = int(input("Enter the first number: "))
+
+    num1 = float(input("Enter the first number: "))
     for symbol in operations:
         print(symbol)
     should_continue = True
 
     while should_continue:
         operation_symbol = input("Pick an operation from the line above: ")
-        num2 = int(input("Enter the next number: "))
+        num2 = float(input("Enter the next number: "))
 
         calculation_funtion = operations[operation_symbol]
         answer = calculation_funtion(num1, num2)
