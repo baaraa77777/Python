@@ -31,7 +31,7 @@ def calculator():
         operation_symbol = input("Pick an operation from the line above: ")
         num2 = float(input("Enter the next number: "))
 
-        calculation_funtion = operations[operation_symbol]
+        calculation_funtion = operations[operation_symbol]  
         answer = calculation_funtion(num1, num2)
 
         print( f"{num1} {operation_symbol} {num2} = {answer} ")
