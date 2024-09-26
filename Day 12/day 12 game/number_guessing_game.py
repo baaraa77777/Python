@@ -1,4 +1,4 @@
-import random
+from random import randint
 from art import logo
 
 EASY_LEVEL_TURNS = 10
@@ -27,7 +27,7 @@ def game():
     print("Welcome to the Number Guessing Game!")
     print("I'm thinking of a number between 1 and 100.")
     turns = set_difficulty()
-    answer = random.randint(1, 100)
+    answer = randint(1, 100)
     print(answer)
     guess = 0
     while guess != answer: 
